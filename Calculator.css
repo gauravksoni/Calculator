@@ -1,0 +1,68 @@
+#screen {
+  width: 247px;
+  height: 50px;
+  border: 2px black;
+  margin-left: 16px;
+  margin-top: 19px;
+  background-color: aquamarine;
+  position: inherit; }
+
+#calculator {
+  width: 299px;
+  height: 427px;
+  border: solid whitesmoke; }
+
+#keys {
+  margin-top: 10%;
+  margin-right: 13%;
+  width: 84%;
+  margin-left: 7%; }
+
+.bdetail, .button, .button2, .button3, .button4, .button.button5, #button1 {
+  color: darkgray;
+  background-color: #f2f2f2;
+  font-size: large;
+  font-weight: 600; }
+
+.button, .button2, .button3, .button4, .button.button5 {
+  width: 19%;
+  padding-bottom: -2%;
+  margin-bottom: 4%;
+  margin-right: 4%;
+  margin-left: 2px;
+  height: 43px;
+  margin-top: 9px;
+  padding-left: 3px; }
+
+#button1 {
+  width: 70%;
+  margin-bottom: 0%;
+  margin-right: 4%;
+  margin-left: 2px;
+  height: 39px;
+  margin-top: -40px;
+  padding-left: 3px;
+  padding-top: 0%; }
+
+.button2 {
+  position: absolute;
+  width: 8.3%;
+  height: 9%; }
+
+.button3 {
+  width: 19%;
+  height: 95px;
+  margin-left: 76%;
+  margin-top: -22%; }
+
+.button4 {
+  width: 108px;
+  height: 40px;
+  position: fixed;
+  margin-left: 0.4%; }
+
+.button.button5, .button5.button2, .button5.button3, .button5.button4 {
+  margin-left: 51%;
+  height: 9.3%; }
+
+/*# sourceMappingURL=Calculator.css.map */

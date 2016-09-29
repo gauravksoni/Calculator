@@ -1,0 +1,86 @@
+$b: #f2f2f2;
+$bg: aquamarine;
+$button: darkgray;
+$size: large;
+$f-weight: 600;
+
+#screen {
+  width: 247px;
+      height: 50px;
+      border: 2px black;
+      margin-left: 16px;
+      margin-top: 19px;
+      background-color: $bg;
+      position: inherit;
+}
+
+#calculator{
+  width: 299px;
+  height: 427px;
+  border: solid whitesmoke;
+}
+#keys{
+  margin-top: 10%;
+  margin-right: 13%;
+  width: 84%;
+    margin-left: 7%;
+}
+.bdetail{
+  color: $button;
+  background-color: $b;
+  font-size: $size;
+  font-weight: $f-weight;
+
+}
+.button{
+  @extend .bdetail;
+  width: 19%;
+      padding-bottom: -2%;
+      margin-bottom: 4%;
+      margin-right: 4%;
+      margin-left: 2px;
+      height: 43px;
+      margin-top: 9px;
+      padding-left: 3px;
+  }
+#button1{
+  @extend .bdetail;
+  width: 70%;
+  margin-bottom: 0%;
+  margin-right: 4%;
+  margin-left: 2px;
+  height: 39px;
+  margin-top: -40px;
+  padding-left: 3px;
+  padding-top: 0%;
+}
+.button2{
+  @extend .button;
+@extend .bdetail;
+  position: absolute;
+  width: 8.3%;
+  height: 9%;
+}
+.button3{
+  @extend .bdetail;
+    @extend .button;
+  width: 19%;
+height: 95px;
+margin-left: 76%;
+margin-top: -22%;
+
+}
+.button4{
+  @extend .bdetail;
+    @extend .button;
+  width: 108px;
+    height: 40px;
+      position: fixed;
+      margin-left: 0.4%;
+}
+
+.button.button5{
+  @extend .button;
+  margin-left: 51%;
+  height:9.3%;
+}
