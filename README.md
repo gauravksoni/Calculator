@@ -1,3 +1,3 @@
 # Calculator
 
-![Screenshot](Calculator.png)
+![Screenshot](./Style/Calculator.png)
